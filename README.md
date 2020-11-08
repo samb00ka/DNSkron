@@ -26,7 +26,7 @@ Example:
 
 - For a target domain "free-mp3-radio.fm" we will create a "free-mp3-radio" case and use key words "mp3, radio, fm, music", they will help us to find related domains (can be operated by the same owner). 
 
-In addition to stdout output the script creates a folder with a csv file with all IP addresses found and a txt file with subdomains and IP related information. 
+In addition to stdout output the script creates a folder with a csv file with all IP addresses found and a txt file with subdomains and IP related information. Timestamp shows when domain was seen on IP for the last time.
 
 API limit is enough for a non-commercial daily use. The script was tested on Ubuntu/Debian systems.
 
