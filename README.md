@@ -30,6 +30,8 @@ In addition to stdout output the script creates a folder with a csv file with al
 
 API limit is enough for a non-commercial daily use. The script was tested on Ubuntu/Debian systems.
 
+Hint: set scrolling in terminal to unlimited.
+
 #### Special thanks to Virustotal: Guys you are doing a great job!!!
 
 #### Screenshots
