@@ -18,14 +18,17 @@ $ sudo apt install curl csvtool jq
 
 #### Usage
 
+Open Terminal in a folder where the script is located and type the following (root rights are no required):
 ```sh
 $ bash dnskron.sh
 ```
-In addition to stdout output the script will create a folder with a csv file with all IP addresses found and a txt file with subdomains and IP related information. 
+Example:
 
-API limit is enough for a non-commercial daily use. 
+- For a target domain "free-mp3-radio.fm" we will create a "free-mp3-radio" case and use key words "mp3, radio, fm, music", they will help us to find related domains, that can be used by one and the same person. 
 
-The script was tested on Ubuntu/Debian systems.
+In addition to stdout output the script creates a folder with a csv file with all IP addresses found and a txt file with subdomains and IP related information. 
+
+API limit is enough for a non-commercial daily use. The script was tested on Ubuntu/Debian systems.
 
 #### Special thanks to Virustotal: Guys you are doing a great job!!!
 
