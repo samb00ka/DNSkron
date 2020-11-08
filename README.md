@@ -18,13 +18,13 @@ $ sudo apt install curl csvtool jq
 
 #### Usage
 
-Open Terminal in a folder where the script is located and type the following (root rights are no required):
+Open Terminal in a folder where the script is located and type the following (root rights are not required):
 ```sh
 $ bash dnskron.sh
 ```
 Example:
 
-- For a target domain "free-mp3-radio.fm" we will create a "free-mp3-radio" case and use key words "mp3, radio, fm, music", they will help us to find related domains, that can be used by one and the same person. 
+- For a target domain "free-mp3-radio.fm" we will create a "free-mp3-radio" case and use key words "mp3, radio, fm, music", they will help us to find related domains (can be operated by the same owner). 
 
 In addition to stdout output the script creates a folder with a csv file with all IP addresses found and a txt file with subdomains and IP related information. 
 
