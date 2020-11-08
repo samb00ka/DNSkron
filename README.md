@@ -14,7 +14,7 @@ $ sudo apt install curl csvtool jq
 1. Register a Virustotal account and get your free API key
 2. Download dnskron.sh to your Linux PC and put it into a folder
 3. Install requirements
-4. Open dnskron.sh with a text editor, replace <API_KEY> with your API key and save the file
+4. Open dnskron.sh with a text editor, replace <API_KEY> (line 7) with your API key and save the file
 
 #### Usage
 
