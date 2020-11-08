@@ -11,3 +11,11 @@ $ sudo apt install curl csvtool jq
 ```
 
 The script was tested on Ubuntu/Debian systems.
+
+#### Usage
+
+```sh
+$ bash dnskron.sh
+```
+#### Screenshots
+
