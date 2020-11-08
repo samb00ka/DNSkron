@@ -4,7 +4,7 @@ DNSkron is a Linux shell script developed to enumerate historical DNS records, s
 
 #### Requirements
 
-DNSkrin requires curl, csvtool, jq
+DNSkron requires curl, csvtool, jq
 
 ```sh
 $ sudo apt install curl csvtool jq
