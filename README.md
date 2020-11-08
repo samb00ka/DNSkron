@@ -19,3 +19,6 @@ $ bash dnskron.sh
 ```
 #### Screenshots
 
+[![N|Solid](https://github.com/samb00ka/DNSkron/blob/main/Screenshot-1.png)]
+[![N|Solid](https://github.com/samb00ka/DNSkron/blob/main/Screenshot-2.png)]
+[![N|Solid](https://github.com/samb00ka/DNSkron/blob/main/Screenshot-3.png)]
