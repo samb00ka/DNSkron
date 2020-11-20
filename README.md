@@ -2,10 +2,6 @@
 
 DNSkron is a Linux shell script developed to enumerate historical DNS records, subdomains, analyze network infrastructure and find potentially related websites for a target domain or IP address. In some situations helps to disclosure Cloudflare protected websites. The script uses Virustotal API free key.
 
-#### License
-
-free
-
 #### Requirements
 
 DNSkron requires curl, csvtool, jq
@@ -35,6 +31,10 @@ In addition to stdout output the script creates a folder with a csv file with al
 API limit is enough for a non-commercial daily use. The script was tested on Ubuntu/Debian systems.
 
 Hint: set scrolling in terminal to unlimited.
+
+#### License
+
+free
 
 #### Special thanks to Virustotal: Guys you are doing a great job!!!
 
