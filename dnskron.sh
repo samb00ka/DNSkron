@@ -56,7 +56,7 @@ echo -e "\e[31mSummary Report for $target:\e[0m"
 
 echo
 
-cat $target-summary-$time.txt | sed 's/-/\t/g'
+cat $target-summary-$time.txt
 
 key_words_lookup
 
