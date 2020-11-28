@@ -221,12 +221,14 @@ else
 	cat domain-report.txt | jq '.resolutions[].last_resolved' | tr -d '''"''' > res_date.csv
 
 	cat domain-report.txt | jq '.resolutions[].ip_address' | tr -d '''"''' > ip.csv
-
+	
 	counter=$(wc -l ip.csv | cut -d" " -f1)
 
 	seq $counter | sed "c $target" > domain.csv
 
 	csvtool paste res_date.csv ip.csv > display.csv
+	
+	cat ip.csv > ip-log.csv
 
 	echo -e "\e[31mIP($counter) for $target:\e[0m"
 
@@ -263,10 +265,10 @@ else
 	else
 
 		echo "No subdomains found. Checking IP(s)..."
+		
+		cat ip-log.csv | sort | uniq > ip.csv
 
-		cat ip.csv > $target-ip.csv
-
-		ip_lookup_auto
+		ip_lookup
 
 	fi
 
