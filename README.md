@@ -43,3 +43,8 @@ free
 ![N|Solid](https://github.com/samb00ka/DNSkron/blob/main/Screenshot-1.png)
 ![N|Solid](https://github.com/samb00ka/DNSkron/blob/main/Screenshot-2.png)
 ![N|Solid](https://github.com/samb00ka/DNSkron/blob/main/Screenshot-3.png)
+
+#### Issues and code updates
+
+1. Incorrect display of subdomains list in summary - SOLVED (26.11.2020)
+2. Logical mistake causing problem with the IP list (unique IPs) - SOLVED (28.11.2020)
