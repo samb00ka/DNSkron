@@ -28,7 +28,7 @@ Example:
 
 In addition to stdout output the script creates a folder with a csv file with all IP addresses found and a txt file with subdomains and IP related information. Timestamp shows when domain was seen on that IP for the last time.
 
-API limit is enough for a non-commercial daily use. Amount of domains resolved from IP is limited to 1000. The script was tested on Ubuntu/Debian systems.
+API limit is enough for a non-commercial daily use (1000 queries). Amount of domains resolved from IP is limited to 1000. The script was tested on Ubuntu/Debian systems.
 
 Hint: Set scrolling in terminal to unlimited, the output may include thousands of domains.
 
